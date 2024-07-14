@@ -1,0 +1,82 @@
+.custom-container
+{
+    background-color: #0B101c;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 3%;
+    height: 100%;
+    width: 100%;
+}
+
+.App {
+    /* text-align: center; */
+    /* padding: 20px; */
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    /* min-height: 100vh; */
+}
+.custom-input
+{
+    width:70%;
+    height: 37px;
+    margin-top: 3%;
+    margin-left:5%;
+    border: 1px solid #656464;
+    border-radius: 4px;
+    background-color: #99A9B9;
+    color: #0B101c;
+
+}
+
+.search-button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    /* Remove border */
+    background: none;
+    /* Remove background */
+}
+
+.search-button .bi-search {
+    font-size: 24px;
+    /* Adjust the size of the icon */
+    color: white;
+    /* Set the icon color */
+}
+
+.weather-info h2{
+    margin-left: 40%;
+    margin-top: 13px;
+    /* font-size: 24px; */
+    color: #ffffff;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.weather-icon {
+    font-size: 100px;
+    /* Adjust size as needed */
+    /* margin-top: 1px; */
+    color: #F5B522;
+    /* Set the icon color */
+    margin-left: 120%;
+    margin-top: -1000px;
+}
+
+.custom-temp{
+    color: #ffffff;
+    font-size: 55px;
+    padding-left:10%;
+}
+
+.custom-card
+{
+    background-color: #1F2A3A;
+    margin-bottom: 10%;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+}
